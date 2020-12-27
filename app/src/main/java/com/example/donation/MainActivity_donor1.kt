@@ -10,6 +10,12 @@ class MainActivity_donor1 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main_donor1)
 
+        val actionBar = supportActionBar
+
+        actionBar!!.title = "List of Organizations"
+
+        actionBar.setDisplayHomeAsUpEnabled(true)
+
         val button = findViewById<Button>(R.id.button)
         button.setOnClickListener {
 

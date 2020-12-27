@@ -8,6 +8,13 @@ import kotlinx.android.synthetic.main.activity_donation_requests.*
 class donation_requests : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        val actionBar = supportActionBar
+
+        actionBar!!.title = "List of Donation Requests"
+
+        actionBar.setDisplayHomeAsUpEnabled(true)
+
         setContentView(R.layout.activity_donation_requests)
         button3.setOnClickListener{
             val intent= Intent(this,user1::class.java)

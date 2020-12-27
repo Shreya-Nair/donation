@@ -11,6 +11,13 @@ class accept_request : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_accept_request)
+
+        val actionBar = supportActionBar
+
+        actionBar!!.title = "Accepted the Request"
+
+        actionBar.setDisplayHomeAsUpEnabled(true)
+
         exit_button.setOnClickListener {
             val builder = AlertDialog.Builder(this, 0)
             builder.setTitle("Exit")

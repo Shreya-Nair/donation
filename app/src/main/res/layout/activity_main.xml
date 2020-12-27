@@ -12,43 +12,44 @@
         android:layout_height="wrap_content"
         android:text="@string/welcome"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textColor="#F30707"
+        android:textColor="#03A9F4"
         android:textSize="36sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.485"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.244" />
+        app:layout_constraintVertical_bias="0.165" />
 
     <Button
         android:id="@+id/button_donor"
-        android:layout_width="140dp"
-        android:layout_height="wrap_content"
+        android:layout_width="158dp"
+        android:layout_height="63dp"
         android:layout_marginTop="124dp"
         android:text="@string/donor"
+        android:textSize="18sp"
         app:backgroundTint="#210453"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.008" />
+        app:layout_constraintVertical_bias="0.14" />
 
     <Button
         android:id="@+id/button_receiver"
-        android:layout_width="140dp"
-        android:layout_height="wrap_content"
+        android:layout_width="159dp"
+        android:layout_height="63dp"
         android:text="@string/receiver"
+        android:textSize="18sp"
         app:backgroundTint="#210453"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.66" />
+        app:layout_constraintTop_toBottomOf="@+id/button_donor"
+        app:layout_constraintVertical_bias="0.289" />
 
     <TextView
         android:id="@+id/textView2"
@@ -63,6 +64,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.379" />
+        app:layout_constraintVertical_bias="0.329" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

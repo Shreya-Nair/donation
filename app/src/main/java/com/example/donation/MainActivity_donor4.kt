@@ -20,6 +20,12 @@ class MainActivity_donor4 : AppCompatActivity() {
         val chkToys = findViewById<CheckBox>(R.id.Toys)
         setContentView(R.layout.activity_main_donor4)
 
+        val actionBar = supportActionBar
+
+        actionBar!!.title = "Enter Donor's Details"
+
+        actionBar.setDisplayHomeAsUpEnabled(true)
+
         val button5 = findViewById<Button>(R.id.button5)
         button5.setOnClickListener {
 

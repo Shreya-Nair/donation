@@ -3,7 +3,7 @@
     <string name="welcome">WELCOME</string>
     <string name="donor">DONOR</string>
     <string name="receiver">RECEIVER</string>
-    <string name="are_you_a_donor_or_receiver">Are you a donor or receiver?</string>
+    <string name="are_you_a_donor_or_receiver">Are you a Donor or Receiver?</string>
     <string name="donation_requests">Donation Requests</string>
     <string name="upload_requirements">Upload Requirements</string>
     <string name="user2">USER2</string>
@@ -39,7 +39,7 @@
     <string name="all_abt_ngo1">All Abt NGO1</string>
     <string name="info_about_ngo1">Info about Ngo1</string>
     <string name="all_abt_ngo">All abt ngo1</string>
-    <string name="all_abt_ngo_2">All Abt NGO2</string>
+    <string name="all_abt_ngo_2">All abt ngo2</string>
     <string name="info_abt_ng_o2">Info abt NGO2</string>
     <string name="donate_now">Donate Now</string>
     <string name="donor_details">Donor Details</string>
@@ -58,14 +58,12 @@
     <string name="name3">Name:</string>
     <string name="contact_no">Contact no:</string>
     <string name="city">City:</string>
-    <string name="your_donation_request_has_been_received_kindly_wait_for_the_confirmation">Your Donation Request has been Received . Kindly wait for the confirmation.</string>
     <string name="thank_you_for_donating">THANK YOU FOR DONATING!!</string>
-    <string name="exit">Exit</string>
+    <string name="exit1">Exit</string>
     <string name="enter_your_details">Enter your Details</string>
-    <string name="your_donation_request_has_been_received_kindly_wait_for_theconfirmation">Your donation request has been received. kindly wait for the confirmation</string>
 
-    <string name="click_here_to_register_your_organization">Click here to register your organization</string>
-    <string name="hello_receiver">Hello Receiver!</string>
+    <string name="click_here">Click here</string>
+    <string name="hello_receiver">Hello Receiver! Click below to register your organization</string>
     <string name="add_your_organization_details">Add your organization details</string>
     <string name="name">Name</string>
     <string name="name_asha">Name(Asha)</string>
@@ -83,6 +81,11 @@
     <string name="toys">Toys</string>
     <string name="done">Done</string>
     <string name="thank_you_your_donors_will_contact_you">Thank You! Your donors will contact you!</string>
-    <string name="back_to_receiver_home_page">Back to Receiver Home Page</string>
+    <string name="back_to_home_page">Back to Home Page</string>
     <string name="email_address">Email Address</string>
+    <string name="details_of_ngo1">Details of Ngo1</string>
+    <string name="organizations_that_need_you">Organizations that need you</string>
+    <string name="details_abt_ngo2">Details abt ngo2</string>
+    <string name="exit">Exit</string>
+    <string name="your_donation_request_has_been_received_kindly_wait_for_the_confirmation">Your donation request has been received! Kindly wait for the confirmation</string>
 </resources>

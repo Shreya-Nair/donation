@@ -9,6 +9,13 @@ class MainActivity_donor5 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main_donor5)
+
+        val actionBar = supportActionBar
+
+        actionBar!!.title = "Thank You!"
+
+        actionBar.setDisplayHomeAsUpEnabled(true)
+
         val alertBtn = findViewById<Button>(R.id.alertBtn)
         alertBtn.setOnClickListener {
             //nov define our theme in style, nov define here our theme

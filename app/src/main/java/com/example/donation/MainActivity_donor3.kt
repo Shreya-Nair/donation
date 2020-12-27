@@ -9,6 +9,13 @@ class MainActivity_donor3 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main_donor3)
+
+        val actionBar = supportActionBar
+
+        actionBar!!.title = "Details of the Organization"
+
+        actionBar.setDisplayHomeAsUpEnabled(true)
+
         val button4 = findViewById<Button>(R.id.button4)
         button4.setOnClickListener {
 

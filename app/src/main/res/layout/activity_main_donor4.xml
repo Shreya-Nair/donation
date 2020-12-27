@@ -26,8 +26,8 @@
 
     <EditText
         android:id="@+id/editTextTextPersonName6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="292dp"
+        android:layout_height="51dp"
         android:autofillHints=""
         android:ems="10"
         android:hint="@string/name3"
@@ -44,8 +44,8 @@
 
     <EditText
         android:id="@+id/editTextTextPersonName7"
-        android:layout_width="210dp"
-        android:layout_height="55dp"
+        android:layout_width="292dp"
+        android:layout_height="wrap_content"
         android:autofillHints=""
         android:ems="10"
         android:hint="@string/contact_number"
@@ -58,12 +58,13 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName6"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.024" />
 
     <EditText
         android:id="@+id/editTextTextPersonName8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="292dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="12dp"
         android:autofillHints=""
         android:ems="10"
         android:hint="@string/city"
@@ -79,21 +80,21 @@
     <CheckBox
         android:id="@+id/Food"
         android:layout_width="152dp"
-        android:layout_height="38dp"
+        android:layout_height="wrap_content"
         android:text="@string/food"
         android:textColor="#070707"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.386"
+        app:layout_constraintHorizontal_bias="0.436"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Clothes"
         app:layout_constraintVertical_bias="0.0" />
 
     <CheckBox
         android:id="@+id/Things"
-        android:layout_width="wrap_content"
+        android:layout_width="152dp"
         android:layout_height="wrap_content"
         android:text="@string/educational_thing"
         android:textColor="#0E0E0E"
@@ -108,15 +109,15 @@
 
     <CheckBox
         android:id="@+id/Toys"
-        android:layout_width="102dp"
-        android:layout_height="45dp"
+        android:layout_width="152dp"
+        android:layout_height="54dp"
         android:text="@string/toys"
         android:textColor="#0C0C0C"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.323"
+        app:layout_constraintHorizontal_bias="0.436"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Things"
         app:layout_constraintVertical_bias="0.0" />
@@ -124,7 +125,7 @@
     <CheckBox
         android:id="@+id/Clothes"
         android:layout_width="152dp"
-        android:layout_height="41dp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="22dp"
         android:text="@string/clothes"
         android:textColor="#0B0A0A"
@@ -132,15 +133,15 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.386"
+        app:layout_constraintHorizontal_bias="0.436"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView9"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.003" />
 
     <TextView
         android:id="@+id/textView9"
-        android:layout_width="339dp"
-        android:layout_height="48dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="@string/what_would_you_like_to"
         android:textAlignment="center"
         android:textColor="#0E0E0E"

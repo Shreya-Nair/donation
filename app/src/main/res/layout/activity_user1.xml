@@ -38,8 +38,8 @@
 
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="320dp"
-        android:layout_height="49dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="@string/what_user1_wants_to_donate"
         android:textAlignment="textStart"
         android:textColor="#020202"

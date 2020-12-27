@@ -24,8 +24,8 @@
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="215dp"
-        android:layout_height="73dp"
+        android:layout_width="226dp"
+        android:layout_height="75dp"
         android:text="@string/donate_now1"
         android:textColor="#FAF7F7"
         android:textSize="24sp"

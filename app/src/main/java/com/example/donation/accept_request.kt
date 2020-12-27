@@ -21,7 +21,7 @@ class accept_request : AppCompatActivity() {
             }
             builder.setNegativeButton("No"){dialog ,which->
                 Toast.makeText(this,"You clicked no",Toast.LENGTH_LONG).show()
-                val intent=Intent(this,receiver_main::class.java)
+                val intent=Intent(this,ReceiverHomePage::class.java)
                 startActivity(intent)
 
             }

@@ -19,16 +19,70 @@
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="about_user1">About User1:</string>
-    <string name="clothes">Clothes</string>
+
     <string name="details">details</string>
     <string name="what_user1_wants_to_donate">What user1 wants to donate</string>
-    <string name="toys">Toys</string>
-    <string name="food">Food</string>
+
     <string name="educational">Educational</string>
     <string name="decline_request">DECLINE REQUEST</string>
     <string name="accept_request">ACCEPT REQUEST</string>
     <string name="decline_message">You can have a look at others donation requests.</string>
     <string name="ok">OK</string>
     <string name="acceptance_message">Thank you for accepting the request. Please contact donor for shipping.</string>
-    <string name="exit">EXIT</string>
+
+    <string name="organisatio_n">Organisation that needs you</string>
+    <string name="ngo_1">NGO1</string>
+    <string name="requirement_s">Requirements</string>
+    <string name="ngo_2">NGO2</string>
+    <string name="requiremen_ts">Requirements</string>
+    <string name="donate_now1">Donate Now</string>
+    <string name="all_abt_ngo1">All Abt NGO1</string>
+    <string name="info_about_ngo1">Info about Ngo1</string>
+    <string name="all_abt_ngo">All abt ngo1</string>
+    <string name="all_abt_ngo_2">All Abt NGO2</string>
+    <string name="info_abt_ng_o2">Info abt NGO2</string>
+    <string name="donate_now">Donate Now</string>
+    <string name="donor_details">Donor Details</string>
+    <string name="name1">Name</string>
+    <string name="enter_your_name">Enter your Name</string>
+    <string name="contact_number">Contact Number:</string>
+    <string name="city1">City:</string>
+    <string name="what_would_you_like_to_donate">What would you like to Donate:</string>
+    <string name="name_1">Name</string>
+    <string name="contact_number1">Contact Number</string>
+    <string name="nam_e">Name :</string>
+    <string name="what_would_you_like_to">What would you like to donate :</string>
+    <string name="submit">Submit</string>
+    <string name="educational_thing">Educational things</string>
+
+    <string name="name3">Name:</string>
+    <string name="contact_no">Contact no:</string>
+    <string name="city">City:</string>
+    <string name="your_donation_request_has_been_received_kindly_wait_for_the_confirmation">Your Donation Request has been Received . Kindly wait for the confirmation.</string>
+    <string name="thank_you_for_donating">THANK YOU FOR DONATING!!</string>
+    <string name="exit">Exit</string>
+    <string name="enter_your_details">Enter your Details</string>
+    <string name="your_donation_request_has_been_received_kindly_wait_for_theconfirmation">Your donation request has been received. kindly wait for the confirmation</string>
+
+    <string name="click_here_to_register_your_organization">Click here to register your organization</string>
+    <string name="hello_receiver">Hello Receiver!</string>
+    <string name="add_your_organization_details">Add your organization details</string>
+    <string name="name">Name</string>
+    <string name="name_asha">Name(Asha)</string>
+    <string name="organization_name">Organization Name</string>
+    <string name="address">Address</string>
+    <string name="organization_address">Organization Address</string>
+    <string name="organization_name_eg_asha">Organization Name (eg. Asha)</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="organization_license_number">Organization License Number</string>
+
+    <string name="upload_your_requirements">Upload your requirements</string>
+    <string name="clothes">Clothes</string>
+    <string name="food">Food</string>
+    <string name="educational_material">Educational Material</string>
+    <string name="toys">Toys</string>
+    <string name="done">Done</string>
+    <string name="thank_you_your_donors_will_contact_you">Thank You! Your donors will contact you!</string>
+    <string name="back_to_receiver_home_page">Back to Receiver Home Page</string>
+    <string name="email_address">Email Address</string>
 </resources>

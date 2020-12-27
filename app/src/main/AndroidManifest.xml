@@ -9,16 +9,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Donation">
-        <activity android:name=".accept_request"></activity>
+        <activity android:name=".UploadRequirements"></activity>
+        <activity android:name=".ThankYou" />
+        <activity android:name=".ReceiverHomePage" />
+        <activity android:name=".OrgDetails" />
+        <activity android:name=".MainActivity_receiver" />
+        <activity android:name=".MainActivity_donor5" />
+        <activity android:name=".MainActivity_donor4" />
+        <activity android:name=".MainActivity_donor3" />
+        <activity android:name=".MainActivity_donor2" />
+        <activity android:name=".MainActivity_donor1" />
+        <activity android:name=".accept_request" />
         <activity android:name=".decline_request" />
-        <activity android:name=".decline" />
+
         <activity
             android:name=".user1"
             android:label="@string/title_activity_user1"
             android:theme="@style/Theme.Donation.NoActionBar" />
         <activity android:name=".donation_requests" />
-        <activity android:name=".receiver_main" />
-        <activity android:name=".donor_main" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

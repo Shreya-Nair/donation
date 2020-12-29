@@ -9,8 +9,8 @@
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="226dp"
-        android:layout_height="75dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="@string/donate_now"
         android:textAlignment="center"
         android:textSize="24sp"
@@ -24,8 +24,8 @@
 
     <TextView
         android:id="@+id/textView5"
-        android:layout_width="181dp"
-        android:layout_height="110dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="@string/details_abt_ngo2"
         android:textAlignment="center"
         android:textColor="#040303"
@@ -39,8 +39,8 @@
 
     <TextView
         android:id="@+id/textView7"
-        android:layout_width="168dp"
-        android:layout_height="106dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="@string/all_abt_ngo_2"
         android:textAlignment="center"
         android:textColor="#191919"

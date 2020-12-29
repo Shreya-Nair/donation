@@ -8,11 +8,11 @@
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="153dp"
-        android:layout_height="57dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="@string/user1"
         android:textAlignment="center"
-        android:textSize="18sp"
+        android:textSize="24sp"
         android:textStyle="bold"
         app:backgroundTint="#210453"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -23,24 +23,23 @@
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="154dp"
-        android:layout_height="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="@string/user2"
         android:textAlignment="center"
-        android:textSize="18sp"
+        android:textSize="24sp"
         android:textStyle="bold"
         app:backgroundTint="#210453"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.627" />
+        app:layout_constraintVertical_bias="0.578" />
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="356dp"
-        android:layout_height="77dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="@string/people_who_want_to_donate"
         android:textAlignment="center"
         android:textColor="#0B0A0A"

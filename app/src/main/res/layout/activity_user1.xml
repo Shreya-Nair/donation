@@ -9,8 +9,8 @@
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="249dp"
-        android:layout_height="49dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="@string/about_user1"
         android:textAlignment="textStart"
         android:textAllCaps="false"
@@ -24,15 +24,16 @@
 
     <TextView
         android:id="@+id/textView5"
-        android:layout_width="250dp"
-        android:layout_height="47dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
         android:text="@string/details"
+        android:textAlignment="center"
         android:textColor="#0E0E0E"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView4"
         app:layout_constraintHorizontal_bias="0.503"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
         app:layout_constraintTop_toBottomOf="@+id/textView4"
         app:layout_constraintVertical_bias="0.0" />
 
@@ -84,50 +85,54 @@
         android:id="@+id/checkBox"
         android:layout_width="216dp"
         android:layout_height="40dp"
+        android:layout_marginTop="5dp"
         android:text="@string/clothes"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView6"
+        app:layout_constraintStart_toStartOf="@+id/textView6"
         app:layout_constraintTop_toBottomOf="@+id/textView6"
         app:layout_constraintVertical_bias="0.0" />
 
     <CheckBox
         android:id="@+id/checkBox2"
-        android:layout_width="217dp"
+        android:layout_width="0dp"
         android:layout_height="37dp"
+        android:layout_marginTop="5dp"
         android:text="@string/food"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/checkBox"
         app:layout_constraintHorizontal_bias="0.505"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/checkBox"
         app:layout_constraintTop_toBottomOf="@+id/checkBox"
         app:layout_constraintVertical_bias="0.0" />
 
     <CheckBox
         android:id="@+id/checkBox3"
-        android:layout_width="217dp"
+        android:layout_width="0dp"
         android:layout_height="38dp"
+        android:layout_marginTop="5dp"
         android:text="@string/educational"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/checkBox2"
         app:layout_constraintHorizontal_bias="0.505"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/checkBox2"
         app:layout_constraintTop_toBottomOf="@+id/checkBox2"
         app:layout_constraintVertical_bias="0.0" />
 
     <CheckBox
         android:id="@+id/checkBox4"
-        android:layout_width="216dp"
+        android:layout_width="0dp"
         android:layout_height="40dp"
+        android:layout_marginTop="5dp"
         android:text="@string/toys"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/checkBox3"
         app:layout_constraintHorizontal_bias="0.507"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/checkBox3"
         app:layout_constraintTop_toBottomOf="@+id/checkBox3"
         app:layout_constraintVertical_bias="0.0" />
 

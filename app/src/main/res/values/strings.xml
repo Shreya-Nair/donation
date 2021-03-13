@@ -88,4 +88,5 @@
     <string name="details_abt_ngo2">Details abt ngo2</string>
     <string name="exit">Exit</string>
     <string name="your_donation_request_has_been_received_kindly_wait_for_the_confirmation">Your donation request has been received! Kindly wait for the confirmation</string>
+    <string name="multiline_hint">Enter list of items to donate</string>
 </resources>
